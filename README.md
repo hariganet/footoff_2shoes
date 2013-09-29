@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footoff_october
 ===========
 
@@ -141,3 +142,7 @@ Macのターミナルで、
 ## 参考
 [node-serialportを使ってNode.jsでArduinoと通信する - 人と技術のマッシュアップ]
 (http://tomowatanabe.hatenablog.com/entry/2013/03/23/233554)
+=======
+footoff_2shoes
+==============
+>>>>>>> origin/master
