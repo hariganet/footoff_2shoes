@@ -37,7 +37,7 @@ var server = http.createServer(app);
 // serialport
 //
 //var portName = '/dev/tty.usbmodemfa141';
-var portName = '/dev/tty.usbmodem1411';
+var portName = '/dev/tty.RNBT-377C-RNI-SPP';
 var sp = new serialport.SerialPort(portName, {
     baudRate: 9600
     // , dataBits: 8
@@ -82,7 +82,8 @@ io.sockets.on("connection", function(socket) {
 //
 // serialport1
 //
-var portName2 = '/dev/cu.usbmodem1421';
+//var portName2 = '/dev/cu.usbmodem1421';
+var portName2 = '/dev/tty.RNBT-3795-RNI-SPP';
 var sp2 = new serialport.SerialPort(portName2, {
     baudRate: 9600
     // , dataBits: 8
